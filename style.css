@@ -1,0 +1,147 @@
+header{
+    font-family: 'Montserrat', sans-serif;
+    background: #faffbc;
+    position: relative;
+    margin: 0 auto;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(#faffbc 5%, white 50%);
+}
+
+
+.searchForm{
+    display: inline;
+    position: absolute;
+    width: 50%;
+    top: 50px;
+    margin: 0 auto;
+}
+
+.searchBox{
+    width: 100%;
+    border: none;
+    border: 0.5px solid #c1345f;
+    border-radius: 20px;
+    padding: 9px 4px 9px 8px;
+    
+}
+
+.searchBox:active{
+    border: none;
+}
+
+
+.linksHeader{
+    position: absolute;
+    top: 59px;
+    right: 0;
+    bottom: 210px;
+    margin: 0 30px 0;
+}
+
+.linkHeader{
+    text-decoration: none;
+    color: black;
+    opacity: 0.8;
+    font-weight: bold;
+    padding: 0 0 0 25px;
+    transition: 0.3s all;
+}
+
+.linkHeader:hover{
+    color: #c1345f;
+}
+
+
+.title{
+    text-transform: uppercase;
+    color: #c1345f;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: center;
+    margin: 2em 0;
+}
+
+.conjunto{
+    margin: 0 auto;
+}
+
+
+.list{
+    display: inline-block;
+    width:30%;
+    margin-left: 200px;
+    vertical-align: 45px;
+}
+
+.listaProdutos{
+    line-height: 1.2;
+}
+
+.item{
+    transition: 0.2s all;
+}
+
+
+.item:before{
+    content: "➤ ";
+    opacity: 0.7;
+}
+
+.item:not(p):hover{
+    transform: scale(1.03);
+}
+
+.item:before:hover{
+    transform: scale(1.03);
+}
+
+.fotoProdutos{
+    display: inline;
+    width: 30%;
+    margin-left: 100px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 8px rgba(75, 75, 75, 0.5);
+    cursor:cell;
+    transition: 1s all;
+}
+
+.fotoProdutos:hover{
+    transform: scale(1.1);
+}
+
+.list > p{
+    margin-top: 1em;
+}
+
+.list > p:before{
+    content: none;
+}
+
+.citacao{
+    margin: 7em;
+    line-height: 1.2;
+}
+
+.textoCitacao{
+    text-align: center;
+    font-style: italic;
+}
+
+
+.rodape{
+    padding: 30px 0;
+    padding-top: 40px;
+    margin: auto 0;
+    border-top: 0.5px dashed black;
+    background-color: #c1345f;
+}
+
+.textoRodape{
+    color: white;
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 0.8em;
+}
